@@ -49,7 +49,7 @@ inactive = { fg = "#c5d4dd" }
 [task]
 title = { fg = "#83afe5" }
 border = { fg = "#83afe5" }
-hovered = { fg = "#c5d4dd", bg = "#45475a" }
+hovered = { fg = "#c5d4dd", bg = "#6a7d89" }
 
 [input]
 border = { fg = "#83afe5" }
@@ -69,6 +69,11 @@ cand = { fg = "#f2c38f" }
 rest = { fg = "#f2c38f" }
 
 separator_style = { fg = "#899ba6" }
+
+[notify]
+title_info = { fg = "#f2c38f" }
+title_warn = { fg = "#a8ce93" }
+title_warn = { fg = "#83afe5" }
  
 [filetype]
 rules = [
@@ -79,7 +84,7 @@ rules = [
   
   { mime = "application/" },
   
-  { mime = "inode/directory", fg = "#83afe5", bold = true },
+  { mime = "inode/directory", fg = "#83afe5" },
   { mime = "*", fg = "#c5d4dd" },
 ]
 

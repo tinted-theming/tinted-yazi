@@ -49,7 +49,7 @@ inactive = { fg = "#{{base05-hex}}" }
 [task]
 title = { fg = "#{{base0D-hex}}" }
 border = { fg = "#{{base0D-hex}}" }
-hovered = { fg = "#{{base05-hex}}", bg = "#45475a" }
+hovered = { fg = "#{{base05-hex}}", bg = "#{{base02-hex}}" }
 
 [input]
 border = { fg = "#{{base0D-hex}}" }
@@ -69,6 +69,11 @@ cand = { fg = "#{{base0C-hex}}" }
 rest = { fg = "#{{base0F-hex}}" }
 
 separator_style = { fg = "#{{base04-hex}}" }
+
+[notify]
+title_info = { fg = "#{{base0C-hex}}" }
+title_warn = { fg = "#{{base0A-hex}}" }
+title_warn = { fg = "#{{base08-hex}}" }
  
 [filetype]
 rules = [
@@ -79,7 +84,7 @@ rules = [
   
   { mime = "application/{{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*},", fg = "#{{base0E-hex}}" },
   
-  { mime = "inode/directory", fg = "#{{base0D-hex}}", bold = true },
+  { mime = "inode/directory", fg = "#{{base0D-hex}}" },
   { mime = "*", fg = "#{{base05-hex}}" },
 ]
 
