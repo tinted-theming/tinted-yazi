@@ -1,91 +1,91 @@
 [manager]
-cwd = { fg = "#183691" }
+cwd = { fg = "#339d9b" }
 
 hovered = { reversed = true }
 preview_hoverd = { underline = true }
 
-find_keyword = { bold = true, fg = "#795da3" }
-find_position = { fg = "#a71d5d" }
+find_keyword = { bold = true, fg = "#bf8700" }
+find_position = { fg = "#a475f9" }
 
-marker_copied = { fg = "#183691", bg = "#183691" }
-marker_cut = { fg = "#ed6a43", bg = "#ed6a43" }
-marker_selected = { fg = "#795da3", bg = "#795da3" }
+marker_copied = { fg = "#2da44e", bg = "#2da44e" }
+marker_cut = { fg = "#fa4549", bg = "#fa4549" }
+marker_selected = { fg = "#bf8700", bg = "#bf8700" }
 
-tab_inactive = { fg = "#333333" }
-tab_active = { fg = "#ffffff", bg = "#333333"}
+tab_inactive = { fg = "#424a53" }
+tab_active = { fg = "#eaeef2", bg = "#424a53"}
 
-count_copied = { fg = "#ffffff", bg = "#183691" }
-count_cut = { fg = "#ffffff", bg = "#ed6a43" }
-count_selected = { fg = "#ffffff", bg = "#795da3" }
+count_copied = { fg = "#eaeef2", bg = "#2da44e" }
+count_cut = { fg = "#eaeef2", bg = "#fa4549" }
+count_selected = { fg = "#eaeef2", bg = "#bf8700" }
 
-border_style = { fg = "#795da3" }
+border_style = { fg = "#218bff" }
 
 [mode]
-normal_main = { fg = "#ffffff", bg = "#795da3", bold = true }
-normal_alt = { fg = "#795da3", bg = "#c8c8fa" }
+normal_main = { fg = "#eaeef2", bg = "#218bff", bold = true }
+normal_alt = { fg = "#218bff", bg = "#afb8c1" }
 
-select_alt = { fg = "#a71d5d", bg = "#c8c8fa" }
-select_main = { fg = "#ffffff", bg = "#a71d5d", bold = true }
+select_alt = { fg = "#a475f9", bg = "#afb8c1" }
+select_main = { fg = "#eaeef2", bg = "#a475f9", bold = true }
 
-unset_main = { fg = "#ffffff", bg = "#ed6a43", bold = true }
-unset_alt = { fg = "#ed6a43", bg = "#c8c8fa" }
+unset_main = { fg = "#eaeef2", bg = "#fa4549", bold = true }
+unset_alt = { fg = "#fa4549", bg = "#afb8c1" }
 
 [status]
-perm_exec = { fg = "#183691" }
-perm_read = { fg = "#795da3" }
-perm_sep = { fg = "#183691" }
-perm_type = { fg = "#795da3" }
-perm_write = { fg = "#ed6a43" }
+perm_exec = { fg = "#2da44e" }
+perm_read = { fg = "#bf8700" }
+perm_sep = { fg = "#339d9b" }
+perm_type = { fg = "#218bff" }
+perm_write = { fg = "#fa4549" }
 
-progress_error = { fg = "#ed6a43", bg = "#ffffff" }
-progress_label = { fg = "#333333", bg = "#ffffff" }
-progress_normal = { fg = "#333333", bg = "#ffffff" }
+progress_error = { fg = "#fa4549", bg = "#eaeef2" }
+progress_label = { fg = "#424a53", bg = "#eaeef2" }
+progress_normal = { fg = "#424a53", bg = "#eaeef2" }
 
 [pick]
-active = { fg = "#a71d5d" }
-border = { fg = "#795da3" }
-inactive = { fg = "#333333" }
+active = { fg = "#a475f9" }
+border = { fg = "#218bff" }
+inactive = { fg = "#424a53" }
 
 [task]
-title = { fg = "#795da3" }
-border = { fg = "#795da3" }
-hovered = { fg = "#333333", bg = "#c8c8fa" }
+title = { fg = "#218bff" }
+border = { fg = "#218bff" }
+hovered = { fg = "#424a53", bg = "#afb8c1" }
 
 [input]
-border = { fg = "#795da3" }
-selected = { bg = "#c8c8fa" }
+border = { fg = "#218bff" }
+selected = { bg = "#afb8c1" }
 
 [help]
-desc = { fg = "#333333" }
-on = { fg = "#183691" }
-run = { fg = "#a71d5d" }
+desc = { fg = "#424a53" }
+on = { fg = "#339d9b" }
+run = { fg = "#a475f9" }
 hovered = { reversed = true, bold = true }
-footer = { fg = "#c8c8fa", bg = "#333333" }
+footer = { fg = "#afb8c1", bg = "#424a53" }
 
 [which]
-mask = { bg = "#c8c8fa" }
-desc = { fg = "#333333" }
-cand = { fg = "#183691" }
-rest = { fg = "#333333" }
+mask = { bg = "#afb8c1" }
+desc = { fg = "#424a53" }
+cand = { fg = "#339d9b" }
+rest = { fg = "#4d2d00" }
 
-separator_style = { fg = "#e8e8e8" }
+separator_style = { fg = "#6e7781" }
 
 [notify]
-title_info = { fg = "#183691" }
-title_warn = { fg = "#795da3" }
-title_warn = { fg = "#ed6a43" }
+title_info = { fg = "#339d9b" }
+title_warn = { fg = "#bf8700" }
+title_warn = { fg = "#fa4549" }
  
 [filetype]
 rules = [
-  { mime = "image/*", fg = "#183691" },
-  { mime = "{audio, video}/*", fg = "#795da3" },
+  { mime = "image/*", fg = "#339d9b" },
+  { mime = "{audio, video}/*", fg = "#bf8700" },
    
-  { mime = "application/{pdf,doc,rtf}", fg = "#183691" },
+  { mime = "application/{pdf,doc,rtf}", fg = "#2da44e" },
   
   { mime = "application/" },
   
-  { mime = "inode/directory", fg = "#795da3" },
-  { mime = "*", fg = "#333333" },
+  { mime = "inode/directory", fg = "#218bff" },
+  { mime = "*", fg = "#424a53" },
 ]
 
 
