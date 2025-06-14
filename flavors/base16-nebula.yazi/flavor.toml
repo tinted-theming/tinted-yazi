@@ -1,4 +1,4 @@
-[manager]
+[mgr]
 cwd = { fg = "#226f68" }
 
 hovered = { reversed = true }
@@ -73,7 +73,7 @@ separator_style = { fg = "#87888b" }
 [notify]
 title_info = { fg = "#226f68" }
 title_warn = { fg = "#4f9062" }
-title_warn = { fg = "#777abc" }
+title_error = { fg = "#777abc" }
  
 [filetype]
 rules = [

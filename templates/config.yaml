@@ -1,3 +1,3 @@
 default:
-  supported-systems: [ base16 ]
+  supported-systems: [base16]
   filename: flavors/{{ scheme-system }}-{{ scheme-slug }}.yazi/flavor.toml
