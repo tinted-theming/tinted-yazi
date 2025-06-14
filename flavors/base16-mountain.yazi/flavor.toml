@@ -68,7 +68,7 @@ desc = { fg = "#cacaca" }
 cand = { fg = "#8aabac" }
 rest = { fg = "#ac8a8c" }
 
-separator_style = { fg = "#ac8a8c" }
+separator_style = { fg = "#4c4c4c" }
 
 [notify]
 title_info = { fg = "#8aabac" }
