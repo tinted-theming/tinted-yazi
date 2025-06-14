@@ -73,7 +73,7 @@ separator_style = { fg = "#6b6977" }
 [notify]
 title_info = { fg = "#977d7c" }
 title_warn = { fg = "#adb4b9" }
-title_warn = { fg = "#818591" }
+title_error = { fg = "#818591" }
  
 [filetype]
 rules = [
