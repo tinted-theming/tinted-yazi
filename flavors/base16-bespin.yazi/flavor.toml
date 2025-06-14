@@ -1,4 +1,4 @@
-[manager]
+[mgr]
 cwd = { fg = "#afc4db" }
 
 hovered = { reversed = true }

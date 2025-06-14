@@ -1,4 +1,4 @@
-[manager]
+[mgr]
 cwd = { fg = "#977d7c" }
 
 hovered = { reversed = true }
