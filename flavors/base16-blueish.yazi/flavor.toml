@@ -4,19 +4,19 @@ cwd = { fg = "#5fd1ff" }
 hovered = { reversed = true }
 preview_hoverd = { underline = true }
 
-find_keyword = { bold = true, fg = "#82aaff" }
+find_keyword = { bold = true, fg = "#f6cd5c" }
 find_position = { fg = "#ff84dd" }
 
 marker_copied = { fg = "#c3e88d", bg = "#c3e88d" }
 marker_cut = { fg = "#4ce587", bg = "#4ce587" }
-marker_selected = { fg = "#82aaff", bg = "#82aaff" }
+marker_selected = { fg = "#f6cd5c", bg = "#f6cd5c" }
 
 tab_inactive = { fg = "#c8e1f8" }
 tab_active = { fg = "#182430", bg = "#c8e1f8"}
 
 count_copied = { fg = "#182430", bg = "#c3e88d" }
 count_cut = { fg = "#182430", bg = "#4ce587" }
-count_selected = { fg = "#182430", bg = "#82aaff" }
+count_selected = { fg = "#182430", bg = "#f6cd5c" }
 
 border_style = { fg = "#82aaff" }
 
@@ -32,7 +32,7 @@ unset_alt = { fg = "#4ce587", bg = "#46290a" }
 
 [status]
 perm_exec = { fg = "#c3e88d" }
-perm_read = { fg = "#82aaff" }
+perm_read = { fg = "#f6cd5c" }
 perm_sep = { fg = "#5fd1ff" }
 perm_type = { fg = "#82aaff" }
 perm_write = { fg = "#4ce587" }
@@ -72,13 +72,13 @@ separator_style = { fg = "#74afe7" }
 
 [notify]
 title_info = { fg = "#5fd1ff" }
-title_warn = { fg = "#82aaff" }
+title_warn = { fg = "#f6cd5c" }
 title_error = { fg = "#4ce587" }
  
 [filetype]
 rules = [
   { mime = "image/*", fg = "#5fd1ff" },
-  { mime = "{audio, video}/*", fg = "#82aaff" },
+  { mime = "{audio, video}/*", fg = "#f6cd5c" },
    
   { mime = "application/{pdf,doc,rtf}", fg = "#c3e88d" },
   

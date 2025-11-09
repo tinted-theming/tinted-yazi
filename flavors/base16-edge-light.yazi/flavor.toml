@@ -4,19 +4,19 @@ cwd = { fg = "#509c93" }
 hovered = { reversed = true }
 preview_hoverd = { underline = true }
 
-find_keyword = { bold = true, fg = "#d69822" }
+find_keyword = { bold = true, fg = "#ebcc1a" }
 find_position = { fg = "#b870ce" }
 
 marker_copied = { fg = "#7c9f4b", bg = "#7c9f4b" }
 marker_cut = { fg = "#db7070", bg = "#db7070" }
-marker_selected = { fg = "#d69822", bg = "#d69822" }
+marker_selected = { fg = "#ebcc1a", bg = "#ebcc1a" }
 
 tab_inactive = { fg = "#5e646f" }
 tab_active = { fg = "#fafafa", bg = "#5e646f"}
 
 count_copied = { fg = "#fafafa", bg = "#7c9f4b" }
 count_cut = { fg = "#fafafa", bg = "#db7070" }
-count_selected = { fg = "#fafafa", bg = "#d69822" }
+count_selected = { fg = "#fafafa", bg = "#ebcc1a" }
 
 border_style = { fg = "#6587bf" }
 
@@ -32,7 +32,7 @@ unset_alt = { fg = "#db7070", bg = "#d69822" }
 
 [status]
 perm_exec = { fg = "#7c9f4b" }
-perm_read = { fg = "#d69822" }
+perm_read = { fg = "#ebcc1a" }
 perm_sep = { fg = "#509c93" }
 perm_type = { fg = "#6587bf" }
 perm_write = { fg = "#db7070" }
@@ -72,13 +72,13 @@ separator_style = { fg = "#6587bf" }
 
 [notify]
 title_info = { fg = "#509c93" }
-title_warn = { fg = "#d69822" }
+title_warn = { fg = "#ebcc1a" }
 title_error = { fg = "#db7070" }
  
 [filetype]
 rules = [
   { mime = "image/*", fg = "#509c93" },
-  { mime = "{audio, video}/*", fg = "#d69822" },
+  { mime = "{audio, video}/*", fg = "#ebcc1a" },
    
   { mime = "application/{pdf,doc,rtf}", fg = "#7c9f4b" },
   
