@@ -1,91 +1,91 @@
 [mgr]
-cwd = { fg = "#2c3c57" }
+cwd = { fg = "#36d3ff" }
 
 hovered = { reversed = true }
 preview_hoverd = { underline = true }
 
-find_keyword = { bold = true, fg = "#426395" }
-find_position = { fg = "#900000" }
+find_keyword = { bold = true, fg = "#fff018" }
+find_position = { fg = "#9036ff" }
 
-marker_copied = { fg = "#5c5c6a", bg = "#5c5c6a" }
-marker_cut = { fg = "#487830", bg = "#487830" }
-marker_selected = { fg = "#426395", bg = "#426395" }
+marker_copied = { fg = "#30a860", bg = "#30a860" }
+marker_cut = { fg = "#d80000", bg = "#d80000" }
+marker_selected = { fg = "#fff018", bg = "#fff018" }
 
-tab_inactive = { fg = "#d80000" }
-tab_active = { fg = "#f0f0f0", bg = "#d80000"}
+tab_inactive = { fg = "#4c383b" }
+tab_active = { fg = "#f0f0f0", bg = "#4c383b"}
 
-count_copied = { fg = "#f0f0f0", bg = "#5c5c6a" }
-count_cut = { fg = "#f0f0f0", bg = "#487830" }
-count_selected = { fg = "#f0f0f0", bg = "#426395" }
+count_copied = { fg = "#f0f0f0", bg = "#30a860" }
+count_cut = { fg = "#f0f0f0", bg = "#d80000" }
+count_selected = { fg = "#f0f0f0", bg = "#fff018" }
 
-border_style = { fg = "#001878" }
+border_style = { fg = "#365eff" }
 
 [mode]
-normal_main = { fg = "#f0f0f0", bg = "#001878", bold = true }
-normal_alt = { fg = "#001878", bg = "#fff018" }
+normal_main = { fg = "#f0f0f0", bg = "#365eff", bold = true }
+normal_alt = { fg = "#365eff", bg = "#bdbdbd" }
 
-select_alt = { fg = "#900000", bg = "#fff018" }
-select_main = { fg = "#f0f0f0", bg = "#900000", bold = true }
+select_alt = { fg = "#9036ff", bg = "#bdbdbd" }
+select_main = { fg = "#f0f0f0", bg = "#9036ff", bold = true }
 
-unset_main = { fg = "#f0f0f0", bg = "#487830", bold = true }
-unset_alt = { fg = "#487830", bg = "#fff018" }
+unset_main = { fg = "#f0f0f0", bg = "#d80000", bold = true }
+unset_alt = { fg = "#d80000", bg = "#bdbdbd" }
 
 [status]
-perm_exec = { fg = "#5c5c6a" }
-perm_read = { fg = "#426395" }
-perm_sep = { fg = "#2c3c57" }
-perm_type = { fg = "#001878" }
-perm_write = { fg = "#487830" }
+perm_exec = { fg = "#30a860" }
+perm_read = { fg = "#fff018" }
+perm_sep = { fg = "#36d3ff" }
+perm_type = { fg = "#365eff" }
+perm_write = { fg = "#d80000" }
 
-progress_error = { fg = "#487830", bg = "#f0f0f0" }
-progress_label = { fg = "#d80000", bg = "#f0f0f0" }
-progress_normal = { fg = "#d80000", bg = "#f0f0f0" }
+progress_error = { fg = "#d80000", bg = "#f0f0f0" }
+progress_label = { fg = "#4c383b", bg = "#f0f0f0" }
+progress_normal = { fg = "#4c383b", bg = "#f0f0f0" }
 
 [pick]
-active = { fg = "#900000" }
-border = { fg = "#001878" }
-inactive = { fg = "#d80000" }
+active = { fg = "#9036ff" }
+border = { fg = "#365eff" }
+inactive = { fg = "#4c383b" }
 
 [task]
-title = { fg = "#001878" }
-border = { fg = "#001878" }
-hovered = { fg = "#d80000", bg = "#fff018" }
+title = { fg = "#365eff" }
+border = { fg = "#365eff" }
+hovered = { fg = "#4c383b", bg = "#bdbdbd" }
 
 [input]
-border = { fg = "#001878" }
-selected = { bg = "#fff018" }
+border = { fg = "#365eff" }
+selected = { bg = "#bdbdbd" }
 
 [help]
-desc = { fg = "#d80000" }
-on = { fg = "#2c3c57" }
-run = { fg = "#900000" }
+desc = { fg = "#4c383b" }
+on = { fg = "#36d3ff" }
+run = { fg = "#9036ff" }
 hovered = { reversed = true, bold = true }
-footer = { fg = "#fff018", bg = "#d80000" }
+footer = { fg = "#bdbdbd", bg = "#4c383b" }
 
 [which]
-mask = { bg = "#fff018" }
-desc = { fg = "#d80000" }
-cand = { fg = "#2c3c57" }
+mask = { bg = "#bdbdbd" }
+desc = { fg = "#4c383b" }
+cand = { fg = "#36d3ff" }
 rest = { fg = "#140c0d" }
 
-separator_style = { fg = "#f00000" }
+separator_style = { fg = "#605758" }
 
 [notify]
-title_info = { fg = "#2c3c57" }
-title_warn = { fg = "#426395" }
-title_error = { fg = "#487830" }
+title_info = { fg = "#36d3ff" }
+title_warn = { fg = "#fff018" }
+title_error = { fg = "#d80000" }
  
 [filetype]
 rules = [
-  { mime = "image/*", fg = "#2c3c57" },
-  { mime = "{audio, video}/*", fg = "#426395" },
+  { mime = "image/*", fg = "#36d3ff" },
+  { mime = "{audio, video}/*", fg = "#fff018" },
    
-  { mime = "application/{pdf,doc,rtf}", fg = "#5c5c6a" },
+  { mime = "application/{pdf,doc,rtf}", fg = "#30a860" },
   
   { mime = "application/" },
   
-  { mime = "inode/directory", fg = "#001878" },
-  { mime = "*", fg = "#d80000" },
+  { mime = "inode/directory", fg = "#365eff" },
+  { mime = "*", fg = "#4c383b" },
 ]
 
 

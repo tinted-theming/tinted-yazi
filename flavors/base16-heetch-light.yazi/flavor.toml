@@ -1,90 +1,90 @@
 [mgr]
-cwd = { fg = "#c33678" }
+cwd = { fg = "#47f9f5" }
 
 hovered = { reversed = true }
 preview_hoverd = { underline = true }
 
-find_keyword = { bold = true, fg = "#5ba2b6" }
-find_position = { fg = "#bd0152" }
+find_keyword = { bold = true, fg = "#bd9701" }
+find_position = { fg = "#8f6c97" }
 
-marker_copied = { fg = "#f80059", bg = "#f80059" }
-marker_cut = { fg = "#27d9d5", bg = "#27d9d5" }
-marker_selected = { fg = "#5ba2b6", bg = "#5ba2b6" }
+marker_copied = { fg = "#5bb66a", bg = "#5bb66a" }
+marker_cut = { fg = "#f80059", bg = "#f80059" }
+marker_selected = { fg = "#bd9701", bg = "#bd9701" }
 
 tab_inactive = { fg = "#5a496e" }
 tab_active = { fg = "#feffff", bg = "#5a496e"}
 
-count_copied = { fg = "#feffff", bg = "#f80059" }
-count_cut = { fg = "#feffff", bg = "#27d9d5" }
-count_selected = { fg = "#feffff", bg = "#5ba2b6" }
+count_copied = { fg = "#feffff", bg = "#5bb66a" }
+count_cut = { fg = "#feffff", bg = "#f80059" }
+count_selected = { fg = "#feffff", bg = "#bd9701" }
 
-border_style = { fg = "#47f9f5" }
+border_style = { fg = "#5ba2b6" }
 
 [mode]
-normal_main = { fg = "#feffff", bg = "#47f9f5", bold = true }
-normal_alt = { fg = "#47f9f5", bg = "#7b6d8b" }
+normal_main = { fg = "#feffff", bg = "#5ba2b6", bold = true }
+normal_alt = { fg = "#5ba2b6", bg = "#bdb6c5" }
 
-select_alt = { fg = "#bd0152", bg = "#7b6d8b" }
-select_main = { fg = "#feffff", bg = "#bd0152", bold = true }
+select_alt = { fg = "#8f6c97", bg = "#bdb6c5" }
+select_main = { fg = "#feffff", bg = "#8f6c97", bold = true }
 
-unset_main = { fg = "#feffff", bg = "#27d9d5", bold = true }
-unset_alt = { fg = "#27d9d5", bg = "#7b6d8b" }
+unset_main = { fg = "#feffff", bg = "#f80059", bold = true }
+unset_alt = { fg = "#f80059", bg = "#bdb6c5" }
 
 [status]
-perm_exec = { fg = "#f80059" }
-perm_read = { fg = "#5ba2b6" }
-perm_sep = { fg = "#c33678" }
-perm_type = { fg = "#47f9f5" }
-perm_write = { fg = "#27d9d5" }
+perm_exec = { fg = "#5bb66a" }
+perm_read = { fg = "#bd9701" }
+perm_sep = { fg = "#47f9f5" }
+perm_type = { fg = "#5ba2b6" }
+perm_write = { fg = "#f80059" }
 
-progress_error = { fg = "#27d9d5", bg = "#feffff" }
+progress_error = { fg = "#f80059", bg = "#feffff" }
 progress_label = { fg = "#5a496e", bg = "#feffff" }
 progress_normal = { fg = "#5a496e", bg = "#feffff" }
 
 [pick]
-active = { fg = "#bd0152" }
-border = { fg = "#47f9f5" }
+active = { fg = "#8f6c97" }
+border = { fg = "#5ba2b6" }
 inactive = { fg = "#5a496e" }
 
 [task]
-title = { fg = "#47f9f5" }
-border = { fg = "#47f9f5" }
-hovered = { fg = "#5a496e", bg = "#7b6d8b" }
+title = { fg = "#5ba2b6" }
+border = { fg = "#5ba2b6" }
+hovered = { fg = "#5a496e", bg = "#bdb6c5" }
 
 [input]
-border = { fg = "#47f9f5" }
-selected = { bg = "#7b6d8b" }
+border = { fg = "#5ba2b6" }
+selected = { bg = "#bdb6c5" }
 
 [help]
 desc = { fg = "#5a496e" }
-on = { fg = "#c33678" }
-run = { fg = "#bd0152" }
+on = { fg = "#47f9f5" }
+run = { fg = "#8f6c97" }
 hovered = { reversed = true, bold = true }
-footer = { fg = "#7b6d8b", bg = "#5a496e" }
+footer = { fg = "#bdb6c5", bg = "#5a496e" }
 
 [which]
-mask = { bg = "#7b6d8b" }
+mask = { bg = "#bdb6c5" }
 desc = { fg = "#5a496e" }
-cand = { fg = "#c33678" }
-rest = { fg = "#dedae2" }
+cand = { fg = "#47f9f5" }
+rest = { fg = "#58425d" }
 
-separator_style = { fg = "#ddd6e5" }
+separator_style = { fg = "#7b6d8b" }
 
 [notify]
-title_info = { fg = "#c33678" }
-title_warn = { fg = "#5ba2b6" }
-title_error = { fg = "#27d9d5" }
+title_info = { fg = "#47f9f5" }
+title_warn = { fg = "#bd9701" }
+title_error = { fg = "#f80059" }
  
 [filetype]
 rules = [
-  { mime = "image/*", fg = "#c33678" },
-  { mime = "{audio, video}/*", fg = "#5ba2b6" },
+  { mime = "image/*", fg = "#47f9f5" },
+  { mime = "{audio, video}/*", fg = "#bd9701" },
    
-  { mime = "application/{pdf,doc,rtf}", fg = "#f80059" },
+  { mime = "application/{pdf,doc,rtf}", fg = "#5bb66a" },
   
   { mime = "application/" },
   
-  { mime = "inode/directory", fg = "#47f9f5" },
+  { mime = "inode/directory", fg = "#5ba2b6" },
   { mime = "*", fg = "#5a496e" },
 ]
 

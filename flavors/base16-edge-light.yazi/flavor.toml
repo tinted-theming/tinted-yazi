@@ -11,8 +11,8 @@ marker_copied = { fg = "#7c9f4b", bg = "#7c9f4b" }
 marker_cut = { fg = "#db7070", bg = "#db7070" }
 marker_selected = { fg = "#ebcc1a", bg = "#ebcc1a" }
 
-tab_inactive = { fg = "#5e646f" }
-tab_active = { fg = "#fafafa", bg = "#5e646f"}
+tab_inactive = { fg = "#474752" }
+tab_active = { fg = "#fafafa", bg = "#474752"}
 
 count_copied = { fg = "#fafafa", bg = "#7c9f4b" }
 count_cut = { fg = "#fafafa", bg = "#db7070" }
@@ -22,13 +22,13 @@ border_style = { fg = "#6587bf" }
 
 [mode]
 normal_main = { fg = "#fafafa", bg = "#6587bf", bold = true }
-normal_alt = { fg = "#6587bf", bg = "#d69822" }
+normal_alt = { fg = "#6587bf", bg = "#acb1b9" }
 
-select_alt = { fg = "#b870ce", bg = "#d69822" }
+select_alt = { fg = "#b870ce", bg = "#acb1b9" }
 select_main = { fg = "#fafafa", bg = "#b870ce", bold = true }
 
 unset_main = { fg = "#fafafa", bg = "#db7070", bold = true }
-unset_alt = { fg = "#db7070", bg = "#d69822" }
+unset_alt = { fg = "#db7070", bg = "#acb1b9" }
 
 [status]
 perm_exec = { fg = "#7c9f4b" }
@@ -38,37 +38,37 @@ perm_type = { fg = "#6587bf" }
 perm_write = { fg = "#db7070" }
 
 progress_error = { fg = "#db7070", bg = "#fafafa" }
-progress_label = { fg = "#5e646f", bg = "#fafafa" }
-progress_normal = { fg = "#5e646f", bg = "#fafafa" }
+progress_label = { fg = "#474752", bg = "#fafafa" }
+progress_normal = { fg = "#474752", bg = "#fafafa" }
 
 [pick]
 active = { fg = "#b870ce" }
 border = { fg = "#6587bf" }
-inactive = { fg = "#5e646f" }
+inactive = { fg = "#474752" }
 
 [task]
 title = { fg = "#6587bf" }
 border = { fg = "#6587bf" }
-hovered = { fg = "#5e646f", bg = "#d69822" }
+hovered = { fg = "#474752", bg = "#acb1b9" }
 
 [input]
 border = { fg = "#6587bf" }
-selected = { bg = "#d69822" }
+selected = { bg = "#acb1b9" }
 
 [help]
-desc = { fg = "#5e646f" }
+desc = { fg = "#474752" }
 on = { fg = "#509c93" }
 run = { fg = "#b870ce" }
 hovered = { reversed = true, bold = true }
-footer = { fg = "#d69822", bg = "#5e646f" }
+footer = { fg = "#acb1b9", bg = "#474752" }
 
 [which]
-mask = { bg = "#d69822" }
-desc = { fg = "#5e646f" }
+mask = { bg = "#acb1b9" }
+desc = { fg = "#474752" }
 cand = { fg = "#509c93" }
 rest = { fg = "#509c93" }
 
-separator_style = { fg = "#6587bf" }
+separator_style = { fg = "#5e646f" }
 
 [notify]
 title_info = { fg = "#509c93" }
@@ -85,7 +85,7 @@ rules = [
   { mime = "application/" },
   
   { mime = "inode/directory", fg = "#6587bf" },
-  { mime = "*", fg = "#5e646f" },
+  { mime = "*", fg = "#474752" },
 ]
 
 
