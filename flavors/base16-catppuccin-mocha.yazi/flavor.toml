@@ -22,13 +22,13 @@ border_style = { fg = "#89b4fa" }
 
 [mode]
 normal_main = { fg = "#1e1e2e", bg = "#89b4fa", bold = true }
-normal_alt = { fg = "#89b4fa", bg = "#313244" }
+normal_alt = { fg = "#89b4fa", bg = "#45475a" }
 
-select_alt = { fg = "#cba6f7", bg = "#313244" }
+select_alt = { fg = "#cba6f7", bg = "#45475a" }
 select_main = { fg = "#1e1e2e", bg = "#cba6f7", bold = true }
 
 unset_main = { fg = "#1e1e2e", bg = "#f38ba8", bold = true }
-unset_alt = { fg = "#f38ba8", bg = "#313244" }
+unset_alt = { fg = "#f38ba8", bg = "#45475a" }
 
 [status]
 perm_exec = { fg = "#a6e3a1" }
@@ -49,26 +49,26 @@ inactive = { fg = "#cdd6f4" }
 [task]
 title = { fg = "#89b4fa" }
 border = { fg = "#89b4fa" }
-hovered = { fg = "#cdd6f4", bg = "#313244" }
+hovered = { fg = "#cdd6f4", bg = "#45475a" }
 
 [input]
 border = { fg = "#89b4fa" }
-selected = { bg = "#313244" }
+selected = { bg = "#45475a" }
 
 [help]
 desc = { fg = "#cdd6f4" }
 on = { fg = "#94e2d5" }
 run = { fg = "#cba6f7" }
 hovered = { reversed = true, bold = true }
-footer = { fg = "#313244", bg = "#cdd6f4" }
+footer = { fg = "#45475a", bg = "#cdd6f4" }
 
 [which]
-mask = { bg = "#313244" }
+mask = { bg = "#45475a" }
 desc = { fg = "#cdd6f4" }
 cand = { fg = "#94e2d5" }
 rest = { fg = "#f2cdcd" }
 
-separator_style = { fg = "#585b70" }
+separator_style = { fg = "#a6adc8" }
 
 [notify]
 title_info = { fg = "#94e2d5" }
