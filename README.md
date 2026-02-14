@@ -2,6 +2,28 @@ A set of [tinted-theming](https://github.com/tinted-theming/home) (base16) templ
 
 ## Usage
 
-To use this, copy one or more theme in this repo's flavors directories (e.g., base16-default-dark.yazi) into the `flavors` directory within your yazi's config directories.  Then put it as a flavor in your `theme.yazi` file.
+You can manually copy a theme file into your yazi's `theme.toml` file, or into a flavor directory.
 
+### With Tinty
+
+For convenient, we recommend using [tinty](https://github.com/tinted-theming/tinty). An example config is 
+
+```toml
+[[items]]
+path = "https://github.com/tinted-theming/tinted-yazi"
+name = "tinted-yazi"
+themes-dir = "flavors"
+hook = '''
+cp -f "$TINTY_THEME_FILE_PATH" "$HOME/.config/yazi/flavors/tinted-scheme.yazi/flavor.toml"
+'''
+```
+
+in your tinty's `config.toml` file. Then put
+
+```toml
+[flavor]
+dark = "tinted-scheme"
+```
+
+in your `theme.toml`.
 
