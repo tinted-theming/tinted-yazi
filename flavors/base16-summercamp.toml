@@ -1,9 +1,6 @@
 [mgr]
 cwd = { fg = "#5aebbc" }
 
-hovered = { reversed = true }
-preview_hoverd = { underline = true }
-
 find_keyword = { bold = true, fg = "#f2ff27" }
 find_position = { fg = "#ff8080" }
 
@@ -11,14 +8,20 @@ marker_copied = { fg = "#5ceb5a", bg = "#5ceb5a" }
 marker_cut = { fg = "#e35142", bg = "#e35142" }
 marker_selected = { fg = "#f2ff27", bg = "#f2ff27" }
 
-tab_inactive = { fg = "#736e55" }
-tab_active = { fg = "#1c1810", bg = "#736e55"}
-
 count_copied = { fg = "#1c1810", bg = "#5ceb5a" }
 count_cut = { fg = "#1c1810", bg = "#e35142" }
 count_selected = { fg = "#1c1810", bg = "#f2ff27" }
 
 border_style = { fg = "#489bf0" }
+
+[tabs]
+active = { fg = "#1c1810", bg = "#489bf0"}
+inactive = { fg = "#489bf0", bg = #2a261c" }
+
+[indicator]
+parent = { reversed = true }
+current = { reversed = true }
+preview = { underline = true }
 
 [mode]
 normal_main = { fg = "#1c1810", bg = "#489bf0", bold = true }
@@ -84,8 +87,7 @@ rules = [
   
   { mime = "application/" },
   
-  { mime = "inode/directory", fg = "#489bf0" },
+  { url = "*/", fg = "#489bf0" },
   { mime = "*", fg = "#736e55" },
 ]
-
 
