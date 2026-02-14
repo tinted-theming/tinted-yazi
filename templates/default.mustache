@@ -1,9 +1,6 @@
 [mgr]
 cwd = { fg = "#{{base0C-hex}}" }
 
-hovered = { reversed = true }
-preview_hoverd = { underline = true }
-
 find_keyword = { bold = true, fg = "#{{base0A-hex}}" }
 find_position = { fg = "#{{base0E-hex}}" }
 
@@ -19,6 +16,11 @@ count_cut = { fg = "#{{base00-hex}}", bg = "#{{base08-hex}}" }
 count_selected = { fg = "#{{base00-hex}}", bg = "#{{base0A-hex}}" }
 
 border_style = { fg = "#{{base0D-hex}}" }
+
+[indicator]
+parent = { reversed = true }
+current = { reversed = true }
+preview = { underline = true }
 
 [mode]
 normal_main = { fg = "#{{base00-hex}}", bg = "#{{base0D-hex}}", bold = true }
