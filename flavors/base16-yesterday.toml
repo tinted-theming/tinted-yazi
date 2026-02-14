@@ -1,0 +1,91 @@
+[mgr]
+cwd = { fg = "#3e999f" }
+
+hovered = { reversed = true }
+preview_hoverd = { underline = true }
+
+find_keyword = { bold = true, fg = "#eab700" }
+find_position = { fg = "#8959a8" }
+
+marker_copied = { fg = "#718c00", bg = "#718c00" }
+marker_cut = { fg = "#c82829", bg = "#c82829" }
+marker_selected = { fg = "#eab700", bg = "#eab700" }
+
+tab_inactive = { fg = "#d6d6d6" }
+tab_active = { fg = "#1d1f21", bg = "#d6d6d6"}
+
+count_copied = { fg = "#1d1f21", bg = "#718c00" }
+count_cut = { fg = "#1d1f21", bg = "#c82829" }
+count_selected = { fg = "#1d1f21", bg = "#eab700" }
+
+border_style = { fg = "#4271ae" }
+
+[mode]
+normal_main = { fg = "#1d1f21", bg = "#4271ae", bold = true }
+normal_alt = { fg = "#4271ae", bg = "#4d4d4c" }
+
+select_alt = { fg = "#8959a8", bg = "#4d4d4c" }
+select_main = { fg = "#1d1f21", bg = "#8959a8", bold = true }
+
+unset_main = { fg = "#1d1f21", bg = "#c82829", bold = true }
+unset_alt = { fg = "#c82829", bg = "#4d4d4c" }
+
+[status]
+perm_exec = { fg = "#718c00" }
+perm_read = { fg = "#eab700" }
+perm_sep = { fg = "#3e999f" }
+perm_type = { fg = "#4271ae" }
+perm_write = { fg = "#c82829" }
+
+progress_error = { fg = "#c82829", bg = "#1d1f21" }
+progress_label = { fg = "#d6d6d6", bg = "#1d1f21" }
+progress_normal = { fg = "#d6d6d6", bg = "#1d1f21" }
+
+[pick]
+active = { fg = "#8959a8" }
+border = { fg = "#4271ae" }
+inactive = { fg = "#d6d6d6" }
+
+[task]
+title = { fg = "#4271ae" }
+border = { fg = "#4271ae" }
+hovered = { fg = "#d6d6d6", bg = "#4d4d4c" }
+
+[input]
+border = { fg = "#4271ae" }
+selected = { bg = "#4d4d4c" }
+
+[help]
+desc = { fg = "#d6d6d6" }
+on = { fg = "#3e999f" }
+run = { fg = "#8959a8" }
+hovered = { reversed = true, bold = true }
+footer = { fg = "#4d4d4c", bg = "#d6d6d6" }
+
+[which]
+mask = { bg = "#4d4d4c" }
+desc = { fg = "#d6d6d6" }
+cand = { fg = "#3e999f" }
+rest = { fg = "#7f2a1d" }
+
+separator_style = { fg = "#8e908c" }
+
+[notify]
+title_info = { fg = "#3e999f" }
+title_warn = { fg = "#eab700" }
+title_error = { fg = "#c82829" }
+ 
+[filetype]
+rules = [
+  { mime = "image/*", fg = "#3e999f" },
+  { mime = "{audio, video}/*", fg = "#eab700" },
+   
+  { mime = "application/{pdf,doc,rtf}", fg = "#718c00" },
+  
+  { mime = "application/" },
+  
+  { mime = "inode/directory", fg = "#4271ae" },
+  { mime = "*", fg = "#d6d6d6" },
+]
+
+
