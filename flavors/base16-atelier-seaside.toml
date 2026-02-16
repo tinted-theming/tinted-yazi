@@ -16,7 +16,7 @@ border_style = { fg = "#3d62f5" }
 
 [tabs]
 active = { fg = "#131513", bg = "#3d62f5"}
-inactive = { fg = "#3d62f5", bg = #242924" }
+inactive = { fg = "#3d62f5", bg = "#242924" }
 
 [indicator]
 parent = { reversed = true }
