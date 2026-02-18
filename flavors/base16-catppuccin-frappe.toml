@@ -16,7 +16,7 @@ border_style = { fg = "#8caaee" }
 
 [tabs]
 active = { fg = "#303446", bg = "#8caaee"}
-inactive = { fg = "#8caaee", bg = "#414559" }
+inactive = { fg = "#8caaee", bg = "#292c3c" }
 
 [indicator]
 parent = { reversed = true }
@@ -25,13 +25,13 @@ preview = { underline = true }
 
 [mode]
 normal_main = { fg = "#303446", bg = "#8caaee", bold = true }
-normal_alt = { fg = "#8caaee", bg = "#51576d" }
+normal_alt = { fg = "#8caaee", bg = "#414559" }
 
-select_alt = { fg = "#ca9ee6", bg = "#51576d" }
+select_alt = { fg = "#ca9ee6", bg = "#414559" }
 select_main = { fg = "#303446", bg = "#ca9ee6", bold = true }
 
 unset_main = { fg = "#303446", bg = "#e78284", bold = true }
-unset_alt = { fg = "#e78284", bg = "#51576d" }
+unset_alt = { fg = "#e78284", bg = "#414559" }
 
 [status]
 perm_exec = { fg = "#a6d189" }
@@ -52,26 +52,26 @@ inactive = { fg = "#c6d0f5" }
 [task]
 title = { fg = "#8caaee" }
 border = { fg = "#8caaee" }
-hovered = { fg = "#c6d0f5", bg = "#51576d" }
+hovered = { fg = "#c6d0f5", bg = "#414559" }
 
 [input]
 border = { fg = "#8caaee" }
-selected = { bg = "#51576d" }
+selected = { bg = "#414559" }
 
 [help]
 desc = { fg = "#c6d0f5" }
 on = { fg = "#81c8be" }
 run = { fg = "#ca9ee6" }
 hovered = { reversed = true, bold = true }
-footer = { fg = "#51576d", bg = "#c6d0f5" }
+footer = { fg = "#414559", bg = "#c6d0f5" }
 
 [which]
-mask = { bg = "#51576d" }
+mask = { bg = "#414559" }
 desc = { fg = "#c6d0f5" }
 cand = { fg = "#81c8be" }
 rest = { fg = "#eebebe" }
 
-separator_style = { fg = "#a5adce" }
+separator_style = { fg = "#626880" }
 
 [notify]
 title_info = { fg = "#81c8be" }

@@ -16,7 +16,7 @@ border_style = { fg = "#1e66f5" }
 
 [tabs]
 active = { fg = "#eff1f5", bg = "#1e66f5"}
-inactive = { fg = "#1e66f5", bg = "#ccd0da" }
+inactive = { fg = "#1e66f5", bg = "#e6e9ef" }
 
 [indicator]
 parent = { reversed = true }
@@ -25,13 +25,13 @@ preview = { underline = true }
 
 [mode]
 normal_main = { fg = "#eff1f5", bg = "#1e66f5", bold = true }
-normal_alt = { fg = "#1e66f5", bg = "#bcc0cc" }
+normal_alt = { fg = "#1e66f5", bg = "#ccd0da" }
 
-select_alt = { fg = "#8839ef", bg = "#bcc0cc" }
+select_alt = { fg = "#8839ef", bg = "#ccd0da" }
 select_main = { fg = "#eff1f5", bg = "#8839ef", bold = true }
 
 unset_main = { fg = "#eff1f5", bg = "#d20f39", bold = true }
-unset_alt = { fg = "#d20f39", bg = "#bcc0cc" }
+unset_alt = { fg = "#d20f39", bg = "#ccd0da" }
 
 [status]
 perm_exec = { fg = "#40a02b" }
@@ -52,26 +52,26 @@ inactive = { fg = "#4c4f69" }
 [task]
 title = { fg = "#1e66f5" }
 border = { fg = "#1e66f5" }
-hovered = { fg = "#4c4f69", bg = "#bcc0cc" }
+hovered = { fg = "#4c4f69", bg = "#ccd0da" }
 
 [input]
 border = { fg = "#1e66f5" }
-selected = { bg = "#bcc0cc" }
+selected = { bg = "#ccd0da" }
 
 [help]
 desc = { fg = "#4c4f69" }
 on = { fg = "#179299" }
 run = { fg = "#8839ef" }
 hovered = { reversed = true, bold = true }
-footer = { fg = "#bcc0cc", bg = "#4c4f69" }
+footer = { fg = "#ccd0da", bg = "#4c4f69" }
 
 [which]
-mask = { bg = "#bcc0cc" }
+mask = { bg = "#ccd0da" }
 desc = { fg = "#4c4f69" }
 cand = { fg = "#179299" }
 rest = { fg = "#dd7878" }
 
-separator_style = { fg = "#6c6f85" }
+separator_style = { fg = "#acb0be" }
 
 [notify]
 title_info = { fg = "#179299" }
