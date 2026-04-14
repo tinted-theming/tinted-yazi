@@ -12,11 +12,11 @@ count_copied = { fg = "#282a36", bg = "#50fa7b" }
 count_cut = { fg = "#282a36", bg = "#ff5555" }
 count_selected = { fg = "#282a36", bg = "#f1fa8c" }
 
-border_style = { fg = "#80bfff" }
+border_style = { fg = "#bd93f9" }
 
 [tabs]
-active = { fg = "#282a36", bg = "#80bfff"}
-inactive = { fg = "#80bfff", bg = "#363447" }
+active = { fg = "#282a36", bg = "#bd93f9"}
+inactive = { fg = "#bd93f9", bg = "#21222c" }
 
 [indicator]
 parent = { reversed = true }
@@ -24,8 +24,8 @@ current = { reversed = true }
 preview = { underline = true }
 
 [mode]
-normal_main = { fg = "#282a36", bg = "#80bfff", bold = true }
-normal_alt = { fg = "#80bfff", bg = "#44475a" }
+normal_main = { fg = "#282a36", bg = "#bd93f9", bold = true }
+normal_alt = { fg = "#bd93f9", bg = "#44475a" }
 
 select_alt = { fg = "#ff79c6", bg = "#44475a" }
 select_main = { fg = "#282a36", bg = "#ff79c6", bold = true }
@@ -37,7 +37,7 @@ unset_alt = { fg = "#ff5555", bg = "#44475a" }
 perm_exec = { fg = "#50fa7b" }
 perm_read = { fg = "#f1fa8c" }
 perm_sep = { fg = "#8be9fd" }
-perm_type = { fg = "#80bfff" }
+perm_type = { fg = "#bd93f9" }
 perm_write = { fg = "#ff5555" }
 
 progress_error = { fg = "#ff5555", bg = "#282a36" }
@@ -46,16 +46,16 @@ progress_normal = { fg = "#f8f8f2", bg = "#282a36" }
 
 [pick]
 active = { fg = "#ff79c6" }
-border = { fg = "#80bfff" }
+border = { fg = "#bd93f9" }
 inactive = { fg = "#f8f8f2" }
 
 [task]
-title = { fg = "#80bfff" }
-border = { fg = "#80bfff" }
+title = { fg = "#bd93f9" }
+border = { fg = "#bd93f9" }
 hovered = { fg = "#f8f8f2", bg = "#44475a" }
 
 [input]
-border = { fg = "#80bfff" }
+border = { fg = "#bd93f9" }
 selected = { bg = "#44475a" }
 
 [help]
@@ -69,7 +69,7 @@ footer = { fg = "#44475a", bg = "#f8f8f2" }
 mask = { bg = "#44475a" }
 desc = { fg = "#f8f8f2" }
 cand = { fg = "#8be9fd" }
-rest = { fg = "#bd93f9" }
+rest = { fg = "#993333" }
 
 separator_style = { fg = "#9ea8c7" }
 
@@ -87,7 +87,7 @@ rules = [
   
   { mime = "application/" },
   
-  { url = "*/", fg = "#80bfff" },
+  { url = "*/", fg = "#bd93f9" },
   { mime = "*", fg = "#f8f8f2" },
 ]
 
