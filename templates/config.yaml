@@ -1,3 +1,7 @@
 default:
   supported-systems: [base16]
   filename: flavors/{{ scheme-system }}-{{ scheme-slug }}.toml
+base24-default:
+  supported-systems: [base24]
+  filename: flavors/{{ scheme-system }}-{{ scheme-slug }}.toml
+

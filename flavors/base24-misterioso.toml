@@ -1,0 +1,93 @@
+[mgr]
+cwd = { fg = "#23d7d7" }
+
+find_keyword = { bold = true, fg = "#23d7d7" }
+find_position = { fg = "#9413e5" }
+
+marker_copied = { fg = "#74af68", bg = "#74af68" }
+marker_cut = { fg = "#ff4242", bg = "#ff4242" }
+marker_selected = { fg = "#23d7d7", bg = "#23d7d7" }
+
+count_copied = { fg = "#2d3743", bg = "#74af68" }
+count_cut = { fg = "#2d3743", bg = "#ff4242" }
+count_selected = { fg = "#2d3743", bg = "#23d7d7" }
+
+border_style = { fg = "#338f86" }
+
+[tabs]
+active = { fg = "#2d3743", bg = "#338f86"}
+inactive = { fg = "#338f86", bg = "#000000" }
+
+[indicator]
+parent = { reversed = true }
+current = { reversed = true }
+preview = { underline = true }
+
+[mode]
+normal_main = { fg = "#2d3743", bg = "#338f86", bold = true }
+normal_alt = { fg = "#338f86", bg = "#555555" }
+
+select_alt = { fg = "#9413e5", bg = "#555555" }
+select_main = { fg = "#2d3743", bg = "#9413e5", bold = true }
+
+unset_main = { fg = "#2d3743", bg = "#ff4242", bold = true }
+unset_alt = { fg = "#ff4242", bg = "#555555" }
+
+[status]
+perm_exec = { fg = "#74af68" }
+perm_read = { fg = "#23d7d7" }
+perm_sep = { fg = "#23d7d7" }
+perm_type = { fg = "#338f86" }
+perm_write = { fg = "#ff4242" }
+
+progress_error = { fg = "#ff4242", bg = "#2d3743" }
+progress_label = { fg = "#bebebd", bg = "#2d3743" }
+progress_normal = { fg = "#bebebd", bg = "#2d3743" }
+
+[pick]
+active = { fg = "#9413e5" }
+border = { fg = "#338f86" }
+inactive = { fg = "#bebebd" }
+
+[task]
+title = { fg = "#338f86" }
+border = { fg = "#338f86" }
+hovered = { fg = "#bebebd", bg = "#555555" }
+
+[input]
+border = { fg = "#338f86" }
+selected = { bg = "#555555" }
+
+[help]
+desc = { fg = "#bebebd" }
+on = { fg = "#23d7d7" }
+run = { fg = "#9413e5" }
+hovered = { reversed = true, bold = true }
+footer = { fg = "#555555", bg = "#bebebd" }
+
+[which]
+mask = { bg = "#555555" }
+desc = { fg = "#bebebd" }
+cand = { fg = "#23d7d7" }
+rest = { fg = "#7f2121" }
+
+separator_style = { fg = "#9b9b9a" }
+
+[notify]
+title_info = { fg = "#23d7d7" }
+title_warn = { fg = "#23d7d7" }
+title_error = { fg = "#ff4242" }
+
+[filetype]
+rules = [
+  { mime = "image/*", fg = "#23d7d7" },
+  { mime = "{audio, video}/*", fg = "#23d7d7" },
+
+  { mime = "application/{pdf,doc,rtf}", fg = "#74af68" },
+
+  { mime = "application/" },
+
+  { url = "*/", fg = "#338f86" },
+  { mime = "*", fg = "#bebebd" },
+]
+
